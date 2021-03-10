@@ -1,11 +1,10 @@
 {
-function playGame(playerInput){
+const playGame = function (playerInput){
 
     clearMessages()
     
-    function getMoveName(argMoveId) {
-    
-      if(argMoveId == 1){
+    const getMoveName = function (argMoveId) {
+     if(argMoveId == 1){
         return 'kamień';
       } else if (argMoveId == 2){
         return 'papier'; 
@@ -31,7 +30,7 @@ function playGame(playerInput){
     printMessage('Twój ruch to: ' + playerMove);
   
 
-    function displayResult(argComputerMove, argPlayerMove){
+    const displayResult = function (argComputerMove, argPlayerMove){
       if(argComputerMove == 'kamień' && argPlayerMove == 'papier'){
         return 'Ty wygrywasz! Brawo!';
       }
@@ -47,13 +46,14 @@ function playGame(playerInput){
       else{    
         return('Tym razem przegrywasz! :(');
       }
+      
     }
   
     const result = displayResult(computerMove, playerMove);
     printMessage(result);
   }
   
-  function buttonClicked(){
+  const buttonClicked = function (){
   }
   document.getElementById('play-rock').addEventListener('click', function(){
   playGame(1);
