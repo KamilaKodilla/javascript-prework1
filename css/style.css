@@ -1,0 +1,21 @@
+.container {
+  background-color: khaki;
+  padding: 40px 0 0 300px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  height: 500px;
+}
+
+.button {
+  border: none;
+  width: 80px;
+  height: 40px;
+  display: inline-block;
+  background-color: lightgreen;
+  margin-right: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  padding-top: 5px;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLHVCQUFzQjtFQUN0Qix1QkFBdUI7RUFDdkIsZ0JBQWdCO0VBQ2hCLG1CQUFtQjtFQUNuQixhQUFhO0FDQ2pCOztBREVBO0VBQ0ksWUFBWTtFQUNaLFdBQVc7RUFDWCxZQUFZO0VBQ1oscUJBQXFCO0VBQ3JCLDRCQUE0QjtFQUM1QixrQkFBa0I7RUFDbEIsZ0JBQWdCO0VBQ2hCLG1CQUFtQjtFQUNuQixrQkFBa0I7RUFDbEIsZ0JBQWdCO0FDQ3BCIiwiZmlsZSI6InN0eWxlLmNzcyJ9 */
